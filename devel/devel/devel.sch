@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:devel-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -280,9 +281,9 @@ Text Label 10150 2100 2    50   ~ 0
 P0.31
 Text Label 6100 1350 2    50   ~ 0
 P0.02
-Text Label 10150 3500 2    50   ~ 0
+Text Label 7200 3100 2    50   ~ 0
 P0.26
-Text Label 10150 4250 2    50   ~ 0
+Text Label 7200 3850 2    50   ~ 0
 P0.27
 Text Label 4500 3150 2    50   ~ 0
 RESET
@@ -300,30 +301,30 @@ VDD
 Text Label 3400 3050 2    50   ~ 0
 GND
 $Sheet
-S 10150 3150 550  550 
+S 7200 2750 550  550 
 U 5C59450C
 F0 "PU_NXT_PROFILE" 50
 F1 "Button_PU.sch" 50
-F2 "VCC" I L 10150 3300 50 
-F3 "GND" I L 10150 3400 50 
-F4 "OUT" I L 10150 3500 50 
+F2 "VCC" I L 7200 2900 50 
+F3 "GND" I L 7200 3000 50 
+F4 "OUT" I L 7200 3100 50 
 $EndSheet
 $Sheet
-S 10150 3950 550  550 
+S 7200 3550 550  550 
 U 5C594511
 F0 "PU_PREV_PROFILE" 50
 F1 "Button_PU.sch" 50
-F2 "VCC" I L 10150 4050 50 
-F3 "GND" I L 10150 4150 50 
-F4 "OUT" I L 10150 4250 50 
+F2 "VCC" I L 7200 3650 50 
+F3 "GND" I L 7200 3750 50 
+F4 "OUT" I L 7200 3850 50 
 $EndSheet
-Text Label 10150 3300 2    50   ~ 0
+Text Label 7200 2900 2    50   ~ 0
 5V
-Text Label 10150 3400 2    50   ~ 0
+Text Label 7200 3000 2    50   ~ 0
 GND
-Text Label 10150 4050 2    50   ~ 0
+Text Label 7200 3650 2    50   ~ 0
 VDD
-Text Label 10150 4150 2    50   ~ 0
+Text Label 7200 3750 2    50   ~ 0
 GND
 $Sheet
 S 6100 2850 550  1000
