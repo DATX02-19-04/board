@@ -239,11 +239,11 @@ Text Label 10150 1900 2    50   ~ 0
 VDD
 Text Label 10150 2000 2    50   ~ 0
 GND
-Text Label 3400 1350 2    50   ~ 0
+Text Label 10150 2100 2    50   ~ 0
 P0.02
-Text Label 3400 2100 2    50   ~ 0
+Text Label 3400 1350 2    50   ~ 0
 P0.29
-Text Label 4500 1350 2    50   ~ 0
+Text Label 10150 1350 2    50   ~ 0
 P0.04
 Text Label 4500 2100 2    50   ~ 0
 P0.28
@@ -265,25 +265,25 @@ Text Label 6100 3350 2    50   ~ 0
 P0.14
 Text Label 8700 1350 2    50   ~ 0
 P0.24
-Text Label 10150 1350 2    50   ~ 0
+Text Label 8700 2100 2    50   ~ 0
 P0.25
 Text Label 3400 3150 2    50   ~ 0
 P0.03(A0)
 Text Label 6100 2100 2    50   ~ 0
 P0.22
-Text Label 7200 1350 2    50   ~ 0
-P0.23
-Text Label 7200 2100 2    50   ~ 0
-P0.20
-Text Label 8700 2100 2    50   ~ 0
-P0.30
-Text Label 10150 2100 2    50   ~ 0
-P0.31
 Text Label 6100 1350 2    50   ~ 0
+P0.23
+Text Label 7200 1350 2    50   ~ 0
+P0.20
+Text Label 4500 1350 2    50   ~ 0
+P0.30
+Text Label 3400 2100 2    50   ~ 0
+P0.31
+Text Label 7200 2100 2    50   ~ 0
 P0.19
-Text Label 7200 3100 2    50   ~ 0
-P0.27
 Text Label 7200 3850 2    50   ~ 0
+P0.27
+Text Label 7200 3100 2    50   ~ 0
 P0.26
 Text Label 4500 3150 2    50   ~ 0
 RESET
