@@ -101,8 +101,6 @@ F2 "VCC" I L 3400 1900 50
 F3 "GND" I L 3400 2000 50 
 F4 "OUT" I L 3400 2100 50 
 $EndSheet
-Text Label 3400 1150 2    50   ~ 0
-5V
 Text Label 3400 1250 2    50   ~ 0
 GND
 Text Label 3400 1900 2    50   ~ 0
@@ -127,8 +125,6 @@ F2 "VCC" I L 4500 1900 50
 F3 "GND" I L 4500 2000 50 
 F4 "OUT" I L 4500 2100 50 
 $EndSheet
-Text Label 4500 1150 2    50   ~ 0
-5V
 Text Label 4500 1250 2    50   ~ 0
 GND
 Text Label 4500 1900 2    50   ~ 0
@@ -153,8 +149,6 @@ F2 "VCC" I L 6100 1900 50
 F3 "GND" I L 6100 2000 50 
 F4 "OUT" I L 6100 2100 50 
 $EndSheet
-Text Label 6100 1150 2    50   ~ 0
-5V
 Text Label 6100 1250 2    50   ~ 0
 GND
 Text Label 6100 1900 2    50   ~ 0
@@ -179,8 +173,6 @@ F2 "VCC" I L 7200 1900 50
 F3 "GND" I L 7200 2000 50 
 F4 "OUT" I L 7200 2100 50 
 $EndSheet
-Text Label 7200 1150 2    50   ~ 0
-5V
 Text Label 7200 1250 2    50   ~ 0
 GND
 Text Label 7200 1900 2    50   ~ 0
@@ -205,8 +197,6 @@ F2 "VCC" I L 8700 1900 50
 F3 "GND" I L 8700 2000 50 
 F4 "OUT" I L 8700 2100 50 
 $EndSheet
-Text Label 8700 1150 2    50   ~ 0
-5V
 Text Label 8700 1250 2    50   ~ 0
 GND
 Text Label 8700 1900 2    50   ~ 0
@@ -231,59 +221,57 @@ F2 "VCC" I L 10150 1900 50
 F3 "GND" I L 10150 2000 50 
 F4 "OUT" I L 10150 2100 50 
 $EndSheet
-Text Label 10150 1150 2    50   ~ 0
-5V
 Text Label 10150 1250 2    50   ~ 0
 GND
 Text Label 10150 1900 2    50   ~ 0
 VDD
 Text Label 10150 2000 2    50   ~ 0
 GND
-Text Label 3400 1350 2    50   ~ 0
-P0.19
-Text Label 3400 2100 2    50   ~ 0
-P0.20
-Text Label 4500 1350 2    50   ~ 0
-P0.22
-Text Label 4500 2100 2    50   ~ 0
-P0.23
-Text Label 6100 3450 2    50   ~ 0
-P0.15
-Text Label 6100 3550 2    50   ~ 0
-P0.16
 Text Label 6100 3650 2    50   ~ 0
-P0.17
+P0.19
 Text Label 6100 3750 2    50   ~ 0
-P0.18
-Text Label 6100 3050 2    50   ~ 0
-P0.11
-Text Label 6100 3150 2    50   ~ 0
-P0.12
-Text Label 6100 3250 2    50   ~ 0
-P0.13
-Text Label 6100 3350 2    50   ~ 0
-P0.14
+P0.20
+Text Label 8700 2100 2    50   ~ 0
+P0.22
 Text Label 8700 1350 2    50   ~ 0
+P0.23
+Text Label 6100 3250 2    50   ~ 0
+P0.15
+Text Label 6100 3350 2    50   ~ 0
+P0.16
+Text Label 6100 3450 2    50   ~ 0
+P0.17
+Text Label 6100 3550 2    50   ~ 0
+P0.18
+Text Label 7200 3850 2    50   ~ 0
+P0.11
+Text Label 7200 3100 2    50   ~ 0
+P0.12
+Text Label 6100 3050 2    50   ~ 0
+P0.13
+Text Label 6100 3150 2    50   ~ 0
+P0.14
+Text Label 6100 2100 2    50   ~ 0
 P0.24
-Text Label 10150 1350 2    50   ~ 0
+Text Label 7200 2100 2    50   ~ 0
 P0.25
 Text Label 3400 3150 2    50   ~ 0
 P0.03(A0)
-Text Label 6100 2100 2    50   ~ 0
+Text Label 4500 2100 2    50   ~ 0
 P0.04
-Text Label 7200 1350 2    50   ~ 0
+Text Label 3400 1350 2    50   ~ 0
 P0.28
-Text Label 7200 2100 2    50   ~ 0
+Text Label 3400 2100 2    50   ~ 0
 P0.29
-Text Label 8700 2100 2    50   ~ 0
+Text Label 4500 1350 2    50   ~ 0
 P0.30
-Text Label 10150 2100 2    50   ~ 0
+Text Label 10150 1350 2    50   ~ 0
 P0.31
 Text Label 6100 1350 2    50   ~ 0
 P0.02
-Text Label 7200 3100 2    50   ~ 0
+Text Label 7200 1350 2    50   ~ 0
 P0.26
-Text Label 7200 3850 2    50   ~ 0
+Text Label 10150 2100 2    50   ~ 0
 P0.27
 Text Label 4500 3150 2    50   ~ 0
 RESET
@@ -318,8 +306,6 @@ F2 "VCC" I L 7200 3650 50
 F3 "GND" I L 7200 3750 50 
 F4 "OUT" I L 7200 3850 50 
 $EndSheet
-Text Label 7200 2900 2    50   ~ 0
-5V
 Text Label 7200 3000 2    50   ~ 0
 GND
 Text Label 7200 3650 2    50   ~ 0
@@ -358,4 +344,18 @@ Text Label 4500 3050 2    50   ~ 0
 GND
 NoConn ~ 1950 1450
 NoConn ~ 1350 850 
+Text Label 3400 1150 2    50   ~ 0
+VDD
+Text Label 4500 1150 2    50   ~ 0
+VDD
+Text Label 6100 1150 2    50   ~ 0
+VDD
+Text Label 7200 1150 2    50   ~ 0
+VDD
+Text Label 8700 1150 2    50   ~ 0
+VDD
+Text Label 10150 1150 2    50   ~ 0
+VDD
+Text Label 7200 2900 2    50   ~ 0
+VDD
 $EndSCHEMATC
