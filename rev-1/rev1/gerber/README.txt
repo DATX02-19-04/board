@@ -6,7 +6,7 @@ File descriptions:
     Bottom Solder Mask
 
   rev1-Cmts.User.gbr
-    Notes and dimensions for machining
+    Dimensions for machining
 
   rev1.drl
     Drill file
@@ -25,5 +25,3 @@ File descriptions:
 
 Notes:
 * No bottom silk screen
-* The mounting holes have a diameter of at least 4.3mm, both for the embedded
-  ones as well as the ones on the milling trace.
