@@ -1,0 +1,132 @@
+EESchema Schematic File Version 4
+LIBS:rev1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R4
+U 1 1 5C85A2AC
+P 4350 3700
+F 0 "R4" V 4143 3700 50  0000 C CNN
+F 1 "10k" V 4234 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4280 3700 50  0001 C CNN
+F 3 "~" H 4350 3700 50  0001 C CNN
+	1    4350 3700
+	0    1    1    0   
+$EndComp
+Text HLabel 4200 3700 0    50   Input ~ 0
+VCC
+$Comp
+L Device:C C10
+U 1 1 5C85A39B
+P 5150 3700
+F 0 "C10" V 4898 3700 50  0000 C CNN
+F 1 "22u" V 4989 3700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5188 3550 50  0001 C CNN
+F 3 "~" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5C85A492
+P 4500 3250
+F 0 "D2" H 4500 3466 50  0000 C CNN
+F 1 "D" H 4500 3375 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4500 3250 50  0001 C CNN
+F 3 "~" H 4500 3250 50  0001 C CNN
+	1    4500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C85A53F
+P 4750 2800
+F 0 "R6" V 4543 2800 50  0000 C CNN
+F 1 "100k" V 4634 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 2800 50  0001 C CNN
+F 3 "~" H 4750 2800 50  0001 C CNN
+	1    4750 2800
+	0    1    1    0   
+$EndComp
+Text HLabel 4750 4500 3    50   Input ~ 0
+GND
+Text HLabel 5300 3700 2    50   Input ~ 0
+~RESET
+Wire Wire Line
+	5300 2800 4900 2800
+Wire Wire Line
+	4600 2800 4200 2800
+Wire Wire Line
+	4500 3700 4750 3700
+Wire Wire Line
+	4750 3900 4750 3700
+Connection ~ 4750 3700
+Wire Wire Line
+	4750 3700 5000 3700
+Text HLabel 4200 3900 0    50   Input ~ 0
+RESET_SENSE
+$Comp
+L Switch:SW_DIP_x01 SW14
+U 1 1 5C85C17C
+P 4750 4200
+F 0 "SW14" V 4704 4330 50  0000 L CNN
+F 1 "RESET" V 4795 4330 50  0000 L CNN
+F 2 "DATX02:SW_SPST_EVQQ2_RUBBERDOME_NORMAL" H 4750 4200 50  0001 C CNN
+F 3 "~" H 4750 4200 50  0001 C CNN
+	1    4750 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 2800 4200 3250
+Wire Wire Line
+	5300 2800 5300 3250
+$Comp
+L Device:R R7
+U 1 1 5C87F5EB
+P 5000 3250
+F 0 "R7" V 4793 3250 50  0000 C CNN
+F 1 "100R" V 4884 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 3250 50  0001 C CNN
+F 3 "~" H 5000 3250 50  0001 C CNN
+	1    5000 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 3250 4200 3250
+Connection ~ 4200 3250
+Wire Wire Line
+	4200 3250 4200 3700
+Wire Wire Line
+	4850 3250 4650 3250
+Wire Wire Line
+	5150 3250 5300 3250
+Connection ~ 5300 3250
+Wire Wire Line
+	5300 3250 5300 3700
+$Comp
+L Device:R R5
+U 1 1 5C88011D
+P 4350 3900
+F 0 "R5" V 4143 3900 50  0000 C CNN
+F 1 "10k" V 4234 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4280 3900 50  0001 C CNN
+F 3 "~" H 4350 3900 50  0001 C CNN
+	1    4350 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 3900 4750 3900
+Connection ~ 4750 3900
+$EndSCHEMATC

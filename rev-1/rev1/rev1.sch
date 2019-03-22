@@ -513,7 +513,7 @@ Text Label 3800 3850 0    50   ~ 0
 LED_B
 Text Label 3800 3750 0    50   ~ 0
 LED_G
-Text Label 3800 5650 0    50   ~ 0
+Text Label 3800 5950 0    50   ~ 0
 BTN_R
 Text Label 8450 1100 0    50   ~ 0
 BTN_R
@@ -523,11 +523,11 @@ Text Label 3800 4250 0    50   ~ 0
 BTN_L
 Text Label 3800 4350 0    50   ~ 0
 DPAD_UP
-Text Label 3800 4550 0    50   ~ 0
-DPAD_LEFT
 Text Label 3800 4450 0    50   ~ 0
-DPAD_RIGHT
+DPAD_LEFT
 Text Label 3800 4650 0    50   ~ 0
+DPAD_RIGHT
+Text Label 3800 4550 0    50   ~ 0
 DPAD_DOWN
 Text Label 6850 1000 2    50   ~ 0
 DPAD_UP
@@ -539,7 +539,7 @@ Text Label 6850 1100 2    50   ~ 0
 DPAD_DOWN
 Text Label 8450 1400 0    50   ~ 0
 BTN_SELECT
-Text Label 3800 5950 0    50   ~ 0
+Text Label 3800 5350 0    50   ~ 0
 BTN_SELECT
 $Sheet
 S 6850 4400 950  1000
@@ -577,7 +577,7 @@ F 3 "" H 6850 4600 50  0001 C CNN
 $EndComp
 Text Label 8450 1550 0    50   ~ 0
 BTN_BLUETOOTH
-Text Label 3800 5850 0    50   ~ 0
+Text Label 3800 5450 0    50   ~ 0
 BTN_START
 Text Label 8450 1300 0    50   ~ 0
 BTN_START
@@ -589,13 +589,13 @@ Text Label 6850 1700 2    50   ~ 0
 BTN_A
 Text Label 6850 1800 2    50   ~ 0
 BTN_B
-Text Label 3800 5550 0    50   ~ 0
+Text Label 3800 5850 0    50   ~ 0
 BTN_X
-Text Label 3800 5750 0    50   ~ 0
+Text Label 3800 5550 0    50   ~ 0
 BTN_Y
-Text Label 3800 5450 0    50   ~ 0
+Text Label 3800 5750 0    50   ~ 0
 BTN_A
-Text Label 3800 5350 0    50   ~ 0
+Text Label 3800 5650 0    50   ~ 0
 BTN_B
 Text Label 6850 4800 2    50   ~ 0
 RESET_SENSE
@@ -639,9 +639,9 @@ Connection ~ 1000 3750
 NoConn ~ 3800 5050
 NoConn ~ 3800 4950
 NoConn ~ 3800 4850
-NoConn ~ 3800 4050
-NoConn ~ 3800 4150
 NoConn ~ 3800 3250
 NoConn ~ 3800 3050
 NoConn ~ 3800 2950
+NoConn ~ 3800 4050
+NoConn ~ 3800 4150
 $EndSCHEMATC
